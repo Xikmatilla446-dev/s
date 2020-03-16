@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "firstName": "Xikmatilla",
+    "lastName": "Maxmudov",
+    "image": "https://cv4.litres.ru/pub/c/elektronnaya-kniga/cover_415/45138847-dzho-aberkrombi-nemnogo-nenavisti.jpg",
+    "age": 23,
+    "phone": 988997204575
+  },
+  {
+    "id": 2,
+    "firstName": "Perfect you",
+    "lastName": "Maxmudov",
+    "image": "https://cv0.litres.ru/pub/c/elektronnaya-kniga/cover_415/47683203-olesya-malinskaya-perfect-you-kak-prevratit-zhizn-v-skazku.jpg",
+    "age": 23,
+    "phone": 988997204575
+  },
+  {
+    "id": 3,
+    "firstName": "Xikmatilla",
+    "lastName": "Maxmudov",
+    "image": "https://cv7.litres.ru/pub/c/audiokniga/cover_415/48405378-donato-karrizi-devushka-v-labirinte-48405378.jpg",
+    "age": 23,
+    "phone": 988997204575
+  },
+
+  {
+    "id": 4,
+    "firstName": "Xikmatilla",
+    "lastName": "Maxmudov",
+    "image": "https://cv6.litres.ru/pub/c/audiokniga/cover_415/48452661-artem-kamenistyy-urovni-slozhnosti-48452661.jpg",
+    "age": 23,
+    "phone": 988997204575
+  },
+
+  {
+    "id": 5,
+    "firstName": "Xikmatilla",
+    "lastName": "Maxmudov",
+    "image": "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/27624091-den-braun-proishozhdenie-27624091.jpg",
+    "age": 23,
+    "phone": 988997204575
+  },
+
+  {
+    "id": 6,
+    "firstName": "Xikmatilla",
+    "lastName": "Maxmudov",
+    "image": "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/27624091-den-braun-proishozhdenie-27624091.jpg",
+    "age": 23,
+    "phone": 988997204575
+  },
+
+  {
+    "id": 7,
+    "firstName": "Xikmatilla",
+    "lastName": "Maxmudov",
+    "image": "https://cv9.litres.ru/pub/c/elektronnaya-kniga/cover_415/27624091-den-braun-proishozhdenie-27624091.jpg",
+    "age": 23,
+    "phone": 988997204575
+  }
+]
