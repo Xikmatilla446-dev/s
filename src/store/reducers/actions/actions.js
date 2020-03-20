@@ -44,12 +44,12 @@ export function fetchGames() {
 
         axios.get("https://http-app-c6bfd.firebaseio.com/data.json")
             .then(response => {
-                debugger
+                // debugger
                 const resultArray = [];
             for (let key in response.data){
                 resultArray.push(response.data[key]);
             }
-            debugger
+            // debugger
             dispatch(setGames(resultArray));
         })
             .catch(error => {

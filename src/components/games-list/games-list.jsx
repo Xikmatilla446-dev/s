@@ -1,9 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import { Icon } from 'semantic-ui-react'
+import error from '../../static/perhatian-png-9.png'
 import './games-list-styles.css'
+import ModalBasicExample from "../modal-basic/ModalBasic";
 
-const GamesList = ({games, openModal}) => {
+const GamesList = ({games, openModal,modalOpen}) => {
 
     const emtyMessage = (
         <p>There are not yetin your collection.</p>
@@ -18,12 +20,18 @@ const GamesList = ({games, openModal}) => {
                                 className="card-list"
                                 key={index}>
                                 <img className="card-img"
-                                src={item.cover} alt="not yet"
+                                src={item.cover} alt="true"
                                 />
                                 <div className="card-title">{item.title}</div>
-                                <button
-                                    className="delete-button"
-                                    onClick={() => openModal(item.id)}>delete</button>
+                                <div className="delete-button">
+                                    <button onClick={() => openModal(item.id)}>
+                                        <Icon disabled name='edit outline'/></button>
+
+                                    <button
+                                        onClick={() => openModal(item.id)}>
+                                        <Icon disabled name='trash alternate'/>
+                                    </button>
+                                </div>
 
                             </div>
 
@@ -32,11 +40,13 @@ const GamesList = ({games, openModal}) => {
 
             }
 
-
-            <div class="gcse-searchbox" data-resultsUrl="http://www.example.com"
-                 data-newWindow="true" data-queryParameterName="search" />`
-        </div>
-    );
+            {
+                modalOpen ?
+                    <ModalBasicExample modalOpen={modalOpen}
+                                       openModal={openModal}/>
+                    : null
+            }
+        </div>    );
 
     return (
         <div>

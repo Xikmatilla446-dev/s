@@ -9,11 +9,14 @@
 .delete-button{
     width: 100%;
     outline: none;
-    border: 1px solid purple;
-    background-color: red;
-    color: white;
     padding: 10px 20px;
     box-sizing: border-box;
+    background-color: #61dafb;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
 }
 
 

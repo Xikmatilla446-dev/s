@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {connect} from "react-redux";
 import PropTypes from 'prop-types';
 import {fetchGames} from '../store/reducers/actions/actions'
-
+import ModalBasicExample from '../components/modal-basic/ModalBasic'
 
 import GamesList from '../components/games-list/games-list'
 
@@ -46,16 +46,9 @@ class GamesPage extends Component {
                 <h1>Games page component</h1>
                 <GamesList games={this.props.games}
                 openModal={this.openModalHandler}
+                           modalOpen={modalOpen}
 
                 />
-                {
-                    modalOpen ?
-                        <div className="modal" >
-                            <button>belete</button>
-                            <button className="exit"></button>
-                        </div>
-                        : null
-                }
             </div>
         );
     }

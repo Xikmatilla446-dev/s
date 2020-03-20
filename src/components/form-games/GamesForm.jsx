@@ -14,18 +14,6 @@ class GamesForm extends Component {
     };
 
 
-    componentDidMount() {
-        (function() {
-            var cx = '111:xxx';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/game ' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-        })();
-    }
-
     handleChange = (event) => {
 
         if (!!this.state.errors[event.target.name]){
