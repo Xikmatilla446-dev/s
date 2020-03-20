@@ -1,0 +1,62 @@
+.list-carts{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.delete-button{
+    width: 100%;
+    outline: none;
+    border: 1px solid purple;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+
+
+.card-list{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card-title{
+    background-color: #61dafb;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.card-img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid purple;
+}
+@media only screen and (max-width: 800px ){
+
+    .list-carts{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 600px ){
+
+    .list-carts{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4px;
+    }
+
+
+
+}
